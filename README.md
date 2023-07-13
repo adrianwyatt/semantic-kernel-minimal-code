@@ -1,9 +1,15 @@
 # semantic-kernel-minimal-code
 Minimal code examples for Microsoft's Semantic Kernel AI orchestrator
 
-## TODOs
+# Projects
+1. `chat` - A simple chatbot.			
+1. `chat-stream` - A simple chatbot with streaming responses.
+
+# TODOs
 - [ ] Add a `config` script to set up user-secrets
-- [ ] Sample: Agent
-- [ ] Sample: RAG
-- [ ] Sample: Stepwise planner
-- [ ] 
+- [X] Sample: chat
+- [X] Sample: chat-stream
+- [ ] Sample: agent
+- [ ] Sample: rag
+- [ ] Sample: plan
+ 
