@@ -13,8 +13,8 @@ var chatHistory = chat.CreateNewChat("You are a helpful assistant.");
 
 while (true)
 {
-    Console.Write("Input: ");
+    Console.Write($"{Environment.NewLine}Input: ");
     chatHistory.AddUserMessage(Console.ReadLine());
     chatHistory.AddAssistantMessage(await chat.GenerateMessageAsync(chatHistory));
-    Console.WriteLine($"Assistant: {chatHistory.Last()}");
+    Console.WriteLine($"{Environment.NewLine}Assistant: {chatHistory.Last()}");
 }
